@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SN Scanner</string>
+
+    <!-- We can overwrite the values of the library's strings in order to customize them -->
+
+
+    <string name="ok" translatable="false">OK</string>
+    <string name="permission_camera_rationale" translatable="false">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission" translatable="false">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error" translatable="false">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main" translatable="false">Ocr Detector Sample</string>
+    <string name="ocr_header" translatable="false">Click &quot;Detect Text&quot; to detect text</string>
+    <string name="read_text" translatable="false">Detect Text</string>
+    <string name="auto_focus" translatable="false">Auto Focus</string>
+    <string name="use_flash" translatable="false">Use Flash</string>
+    <string name="ocr_success" translatable="false">Text read successfully</string>
+    <string name="ocr_failure" translatable="false">No text captured</string>
+    <string name="ocr_error" translatable="false">"Error reading text: %1$s"</string>
+    <string name="sn_scanner_tittle" translatable="false">SN Scanner</string>
+    <string name="right_implant_information">Right Implant Information</string>
+    <string name="serial_number">Serial Number</string>
+    <string name="left_implant_information">Left Implant Information</string>
+    <string name="validation_code">Validation Code</string>
+</resources>

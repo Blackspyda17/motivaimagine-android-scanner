@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/topLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+>
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <include
+            layout="@layout/toolbar_b"
+            android:layout_width="match_parent"
+            android:layout_height="88dp" />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <com.motivaimagine.snscanner.scanner_serial.camera.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appbar">
+
+
+    </com.motivaimagine.snscanner.scanner_serial.camera.CameraSourcePreview>
+
+    <com.motivaimagine.snscanner.scanner_serial.ScannerOverlay
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#44000000"
+        app:line_color="@color/colorPrimary"
+        app:line_speed="6"
+        app:line_width="8"
+        app:square_height="50"
+        app:square_width="300">
+
+        <com.motivaimagine.snscanner.scanner_serial.camera.GraphicOverlay
+
+            android:id="@+id/graphicOverlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </com.motivaimagine.snscanner.scanner_serial.ScannerOverlay>
+
+</android.support.constraint.ConstraintLayout>

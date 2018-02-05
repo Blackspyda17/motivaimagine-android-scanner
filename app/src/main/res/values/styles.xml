@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/colorPrimaryLight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColorHint">@color/colorBackgroundNav</item>
+        <item name="colorControlNormal">@color/background_lines_horizontal</item>
+        <item name="colorControlActivated">@color/background_lines_horizontal</item>
+        <item name="colorControlHighlight">@color/background_lines_horizontal</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryLight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryLight</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColorHint">@color/colorGrayText</item>
+        <item name="colorControlNormal">@color/background_lines_horizontal</item>
+        <item name="colorControlActivated">@color/background_lines_horizontal</item>
+        <item name="colorControlHighlight">@color/background_lines_horizontal</item>
+
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+</resources>

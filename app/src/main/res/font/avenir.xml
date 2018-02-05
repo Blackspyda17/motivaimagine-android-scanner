@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font
+        android:fontStyle="normal"
+        android:font="@font/avenirmedium"
+        app:fontStyle="normal"
+        app:font="@font/avenirmedium" />
+    <font
+        android:fontStyle="italic"
+        android:font="@font/avenirmedium"
+        app:fontStyle="italic"
+        app:font="@font/avenirmedium" />
+
+</font-family>

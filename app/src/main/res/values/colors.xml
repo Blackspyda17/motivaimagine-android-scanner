@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#75308b</color>
+    <color name="colorPrimaryDark">#75308B</color>
+    <color name="colorPrimaryLight">#bc9bc7</color>
+    <color name="colorPrimaryText">#ffffff</color>
+    <color name="background_lines_horizontal">#d8c4de</color>
+    <color name="colorBackgroundNav">#ead9ef</color>
+    <color name="colorGrayText">#95989A</color>
+    <color name="scanner_line">#00ceff</color>
+
+
+</resources>
