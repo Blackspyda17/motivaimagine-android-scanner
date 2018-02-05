@@ -85,7 +85,7 @@ public class ScannerSerial extends AppCompatActivity {
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
-        setContentView(R.layout.ocr_capture);
+        setContentView(R.layout.activity_scanner_serial);
         Bundle x = this.getIntent().getExtras();
         if (x != null) {
             side_c = x.getChar(SIDE);
@@ -541,16 +541,6 @@ public class ScannerSerial extends AppCompatActivity {
         }
     }
 
-    public static void createInstance(Activity activity, char side) {
-        Intent intent = getLaunchIntent(activity, side);
-        activity.startActivity(intent);
-    }
-
-    public static Intent getLaunchIntent(Context context, char side) {
-        Intent intent = new Intent(context, OcrCaptureActivity.class);
-        intent.putExtra(SIDE, side);
-        return intent;
-    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
