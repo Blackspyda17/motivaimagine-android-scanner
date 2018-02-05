@@ -71,7 +71,7 @@ in xml
 
 
 ## Thanks to 
-* 感谢 [android-vision](https://github.com/googlesamples/android-vision) 
-* 感谢 [ravi8x](https://github.com/ravi8x) 
+* [android-vision](https://github.com/googlesamples/android-vision) 
+* [ravi8x](https://github.com/ravi8x) 
 
 
